@@ -3,9 +3,17 @@
     "name": "AwesomeProject",
     "slug": "AwesomeProject",
     "version": "1.0.0",
+    "icon": "./assets/rango_logo.png",
+    "splash": {
+      "image": "./assets/splash_demo.png",
+      "resizeMode": "contain"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "demo.rn.app"
+    }
   },
   "name": "AwesomeProject"
 }
